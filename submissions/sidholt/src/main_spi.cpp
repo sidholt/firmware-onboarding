@@ -16,7 +16,7 @@ void setup() {
   }
 
   Serial.println("BME280 connected over SPI");
-  LEDControllerInstance::instance().begin(BMEConstants::LED_PIN);
+  LEDControllerInstance::instance().begin(BMEConstants::LED_PIN_SPI);
 }
 
 void loop() {

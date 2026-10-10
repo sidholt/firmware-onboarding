@@ -7,7 +7,7 @@ class BMESPIInterface
 {
 public:
     BMESPIInterface()
-        : bme(BMEConstants::SPI_CS, BMEConstants::SPI_MOSI, BMEConstants::SPI_MISO, BMEConstants::SPI_SCK)
+        : bme(BMEConstants::SPI_CS)
     {
     }
 
